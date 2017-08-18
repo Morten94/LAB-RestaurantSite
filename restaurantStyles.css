@@ -1,24 +1,7 @@
-<link href="restaurantStyles.css" 
-rel="stylesheet" 
-type="text/css" />
-
-@import url(C:\Users\morte\Desktop\Projects\LAB - Restaurant Site\LAB-RestaurantSite\restaurantStyles.css)
-
-<p style=color:red;font-weight:bold;>
-text
-</p>
-
-
 <style>
-a {
-    text-decoration: none;
-}
-a: hover {
-    text decoration: underline;
-}
 .warning {
-    font-weight:bold;
-    color: red;
+    font-family: "Roman";
+    color: black;
 }
 div.warning {
     font-style: italic;

@@ -1,41 +1,29 @@
 <html>
         <head>
-            <style>
-                a {
-            text-decoration: none;
-        }
-        a: hover {
-            text decoration: underline;
-        }
-        .warning {
-            font-weight:bold;
-            color: red;
-        }
-        div.warning {
-            font-style: italic;
-        }
-                </style>
             <title>The Menu
             </title>
         </head>
+        <link href="restaurantStyles.css" 
+        rel="stylesheet" 
+        type="text/css" />
         <body>
     <h1><center>The Swedish Heaven</center></h1><hr/>
     <a href="Homepage.html">Home</a> <a href="Menu.html">Menu</a> <a href="ContactUs.html">Contact Us</a><hr/>
     <form action="#"method="post">
             <div>
-                <label id="NameLabel" for="Name"><strong>Name:</strong> </label>
+                <label id="NameLabel" for="Name"><bold>Name:</bold> </label>
                 <input id="Name" name="Name" type="text" />
             </div><br/>
                     <div>
-                        <label id="EmailLabel" for="Email"><strong>Email:</strong> </label>
+                        <label id="EmailLabel" for="Email"><bold>Email:</bold> </label>
                         <input id="Email" name="Email" type="text" />
                     </div><br/>
                             <div>
-                                <label id="PhoneLabel" for="Phone"><strong>Phone:</strong> </label>
+                                <label id="PhoneLabel" for="Phone"><bold>Phone:</bold> </label>
                                 <input id="Phone" name="Phone" type="text" />
                             </div><br/>
                             <div>
-                                    <strong>Reason for Inquiry:</strong>
+                                    <bold>Reason for Inquiry:<bold>
                                     <select name="Options">
                                         <option value="Value1">Catering</option>
                                             <option value="Value2">Private Party</option>
@@ -44,16 +32,16 @@
                                                     </select>
                                                 </div><br/>
                                                 <div>
-                                                        <strong>Additional Information:</strong> 
+                                                        <bold>Additional Information:</bold> 
                                                         <textarea name="briefDescription"></textarea>
                                                     </div><br/>
                                                     <div>
-                                                           <strong>Have you been to the restaurant:</strong>
+                                                           <bold>Have you been to the restaurant:</bold>
                                  <input type="radio" name="answer" value="No" checked>No  
                                  <input type="radio" name="answer" value="Yes">Yes
                                  <div/><br/>
                                  <div>
-                                     <strong>Best days to contact you:</strong>
+                                     <bold>Best days to contact you:</bold>
                                         <input type="checkbox" name="myChoices" value="Monday"/>M
                                         <input type="checkbox" name="myChoices" value="Tuesday"/>T
                                         <input type="checkbox" name="myChoices" value="Wednesday"/>W
