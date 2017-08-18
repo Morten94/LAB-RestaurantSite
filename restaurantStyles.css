@@ -1,4 +1,17 @@
 <style>
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+font-weight: bold;
+}
+a:visited {
+color:gold;
+}
+a:active {
+    text-decoration: none;
+}
 .warning {
     font-family: "Roman";
     color: black;
