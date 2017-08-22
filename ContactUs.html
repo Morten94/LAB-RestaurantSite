@@ -1,64 +1,110 @@
 <html>
-        <head>
-            <title>The Menu
-            </title>
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        </head>
-        <link href="restaurantStyles.css" 
-        rel="stylesheet" 
-        type="text/css" />
-        <body>
-    <div><h1><center>The Swedish Heaven</center></h1><hr/>
+
+<head>
+    <title>The Menu
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+<body>
+    <div>
+        <h1>
+            <center>The Swedish Heaven</center>
+        </h1>
+        <hr/>
         <div>
-    <ul class="nav nav-pills">
-            <li class="active"><a href="Homepage.html"><span class="glyphicon glyphicon-home"></a></li>
-            <li><a href="Menu.html">Menu</a></li>
-            <li><a href="ContactUs.html">Contact Us</a></li>
-            <h3 id="page-header"><center>NEW LOCATION IN LUNGVIK</center></h3>
-          </ul>
-        </div><hr/>
-    <form action="#"method="post">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="Homepage.html"><span class="glyphicon glyphicon-home"></a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!---->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item item active">
+                    <p alt="first slide"> We're opening a new location!!
+                    </p>
+                </div>
+                <div class="carousel-item item">
+                    <p alt="second slide">We're rolling out our seasonal menu, with special options for this season</p>
+                </div>
+                <div class="carousel-item item">
+                    <p alt="third slide"> The Drink of the Month is SG Special Brew
+                    </p>
+                </div>
+                ...
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+        </div>
+        <!---->
+        <h3>
+            <center>NEW LOCATION IN LUNGVIK</center>
+        </h3>
+        <hr/>
+        <form action="#" method="post">
             <div>
                 <label id="NameLabel" for="Name"><bold>Name:</bold> </label>
                 <input id="Name" name="Name" type="text" />
             </div><br/>
-                    <div>
-                        <label id="EmailLabel" for="Email"><bold>Email:</bold> </label>
-                        <input id="Email" name="Email" type="text" />
-                    </div><br/>
-                            <div>
-                                <label id="PhoneLabel" for="Phone"><bold>Phone:</bold> </label>
-                                <input id="Phone" name="Phone" type="text" />
-                            </div><br/>
-                            <div>
-                                    <bold>Reason for Inquiry:<bold>
-                                    <select name="Options">
+            <div>
+                <label id="EmailLabel" for="Email"><bold>Email:</bold> </label>
+                <input id="Email" name="Email" type="text" />
+            </div><br/>
+            <div>
+                <label id="PhoneLabel" for="Phone"><bold>Phone:</bold> </label>
+                <input id="Phone" name="Phone" type="text" />
+            </div><br/>
+            <div>
+                <bold>Reason for Inquiry:
+                    <bold>
+                        <select name="Options">
                                         <option value="Value1">Catering</option>
                                             <option value="Value2">Private Party</option>
                                                 <option value="Value3">Feedback</option>
                                                     <option value="Value4t">Other</option>
                                                     </select>
-                                                </div><br/>
-                                                <div>
-                                                        <bold>Additional Information:</bold> 
-                                                        <textarea name="briefDescription"></textarea>
-                                                    </div><br/>
-                                                    <div>
-                                                           <bold>Have you been to the restaurant:</bold>
-                                 <input type="radio" name="answer" value="No" checked>No  
-                                 <input type="radio" name="answer" value="Yes">Yes
-                                 <div/><br/>
-                                 <div>
-                                     <bold>Best days to contact you:</bold>
-                                        <input type="checkbox" name="myChoices" value="Monday"/>M
-                                        <input type="checkbox" name="myChoices" value="Tuesday"/>T
-                                        <input type="checkbox" name="myChoices" value="Wednesday"/>W
-                                        <input type="checkbox" name="myChoices" value="Thursday"/>T
-                                        <input type="checkbox" name="myChoices" value="Friday"/>F
-                                    </div><br/>
-    <hr>
+            </div><br/>
+            <div>
+                <bold>Additional Information:</bold>
+                <textarea name="briefDescription"></textarea>
+            </div><br/>
+            <div>
+                <bold>Have you been to the restaurant:</bold>
+                <input type="radio" name="answer" value="No" checked>No
+                <input type="radio" name="answer" value="Yes">Yes
+                <div/><br/>
+                <div>
+                    <bold>Best days to contact you:</bold>
+                    <input type="checkbox" name="myChoices" value="Monday" />M
+                    <input type="checkbox" name="myChoices" value="Tuesday" />T
+                    <input type="checkbox" name="myChoices" value="Wednesday" />W
+                    <input type="checkbox" name="myChoices" value="Thursday" />T
+                    <input type="checkbox" name="myChoices" value="Friday" />F
+                </div><br/>
+                <hr>
                 <center>Broadway 1946, Minneapolis, MN, 55414</center> <br/>
                 <center>Phone Number: 612.999.9999</center>
+                <script src="js/jquery-3.2.1.js"></script>
                 <script src="js/bootstrap.js"></script>
-        </body>
-    </html>
+</body>
+
+</html>

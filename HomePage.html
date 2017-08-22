@@ -1,42 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <title>My Restaurant
-        </title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-    </head>
-    <style>
-        p {
-            background-color: dodgerblue;
-        }
-        </style>
-    <link href="restaurantStyles.css" 
-    rel="stylesheet" 
-    type="text/css" />
-    <body>
-        <div>
-<h1 class="warning"><center>The Swedish Heaven</center></h1><hr/>
+
+<head>
+    <title>My Restaurant
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+<style>
+    p {
+        background-color: dodgerblue;
+    }
+</style>
+<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+<body>
+    <div>
+        <h1 class="warning">
+            <center>The Swedish Heaven</center>
+        </h1>
+        <hr/>
+    </div>
+    <div>
+        <ul class="nav nav-pills">
+            <li class="active"><a href="Homepage.html"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <!---->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item item active">
+                <p alt="first slide"> We're opening a new location!!
+                </p>
+            </div>
+            <div class="carousel-item item">
+                <p alt="second slide">We're rolling out our seasonal menu, with special options for this season</p>
+            </div>
+            <div class="carousel-item item">
+                <p alt="third slide"> The Drink of the Month is SG Special Brew
+                </p>
+            </div>
+            ...
         </div>
-        <div>
-                <ul class="nav nav-pills">
-                        <li class="active"><a href="Homepage.html"><span class="glyphicon glyphicon-home"></a></li>
-                        <li><a href="Menu.html">Menu</a></li>
-                        <li><a href="ContactUs.html">Contact Us</a></li>
-                      </ul>
-<hr/>
-        </div>
-   <center><p><img src="C:\Users\morte\Desktop\Projects\LAB - Restaurant Site\LAB-RestaurantSite\Image.jpg"><br/>
-    Restaurant Desciption:<br/>
-    Here at The Swedish Heaven we serve top quality food. <br/>
-    Enjoy some of the most basic meals, prepped the Swedish way.<br/>
-    How about some cooked to perfection swedish meatballs stired in a <br/>
-    creamy brown sauce with mashed potatoes and lingonberries.<br/>
-    Can't really beat that! <br/>
-    Come on in and try it out, we promies you that you won't <br/>
-    regret, nor forget about it!<br/>
-    </p></center><hr/>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <!---->
+    <h3>
+        <center>NEW LOCATION IN LUNGVIK</center>
+    </h3>
+    </hr>
+    <center>
+        <p><img src="C:\Users\morte\Desktop\Projects\LAB - Restaurant Site\LAB-RestaurantSite\Image.jpg"><br/> Restaurant Desciption:<br/>            Here at The Swedish Heaven we serve top quality food. <br/> Enjoy some of the most basic meals, prepped the Swedish
+            way.<br/> How about some cooked to perfection swedish meatballs stired in a <br/> creamy brown sauce with mashed
+            potatoes and lingonberries.<br/> Can't really beat that! <br/> Come on in and try it out, we promies you that
+            you won't <br/> regret, nor forget about it!<br/>
+        </p>
+    </center>
+    <hr/>
     <center>Broadway 1946, Minneapolis, MN, 55414</center> <br/>
     <center>Phone Number: 612.999.9999</center>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
+
 </html>

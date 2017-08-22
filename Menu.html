@@ -1,90 +1,139 @@
 <html>
-        <head>
-            <title>The Menu
-            </title>
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        </head>
-        <style>
-           table, th, td {
-  padding: 5px 0px 5px 10px;
-}
-table {
-  width: 100%;
-}
 
-th {
-  height: 25px;
-}
-thead th {
-    text-align:left;
-    text-decoration: underline;
-}
-           body {
-                background-color: dodgerblue;
-            }
-            </style>
+<head>
+  <title>The Menu
+  </title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <style>
+    table,
+    th,
+    td {
+      padding: 5px 0px 5px 10px;
+    }
 
-        <link href="restaurantStyles.css" 
-        rel="stylesheet" 
-        type="text/css" />
-        <body>
-   <div> <h1><center>The Swedish Heaven</center></h1><hr/>
-   </div>
-<div>
+    table {
+      width: 100%;
+    }
+
+    th {
+      height: 25px;
+    }
+
+    thead th {
+      text-align: left;
+      text-decoration: underline;
+    }
+
+    body {
+      background-color: dodgerblue;
+    }
+  </style>
+
+  <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>
+    <center>The Swedish Heaven</center>
+  </h1>
+  <hr/>
+
+  <div>
     <ul class="nav nav-pills">
-        <li class="active"><a href="Homepage.html"><span class="glyphicon glyphicon-home"></a></li>
-        <li><a href="Menu.html">Menu</a></li>
-        <li><a href="ContactUs.html">Contact Us</a></li>
-      </ul>
-<hr/> </div>
-    <table>
-            <thead>
-                <tr>
-                  <th>Swedish Meals</th>
-                  <th>Beverages</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <td><strong>Swedish Meatballs</strong><br/>
-                    Swedish meatballs with mashed potatoes<br/>
-                    served with a creamy sauce and the<br/>
-                    famous lingonberries<br/>
-                    <strong>$6.99</strong></p><br/></td>
-                  <td>Root Beer<br/>
-                        <strong>$3.00</strong><br/>
-                        <br/> <br/>
-                        Iced Tea<br/>
-                        <strong>$1.25</strong></td>
-                </tr>
-                <tr>
-                  <td><strong>Swedish "Falukorv"</strong><br/>
-                    Swedish sausage with stewed<br/> 
-                    macaroni, served with stewed<br/>
-                    vegetables<br/>
-                    <strong>$6.99</strong></p><br/>
-                    <br/></td>
-                  <td>Bottled Water<br/>
-                        <strong>$1.25</strong><br/>
-                        <br/>
-                        <br/>Lemonade</br>
-                        <strong>$1.00</strong></td>
-                </tr>
-                <tr>
-                  <td><strong>Swedish Desert</strong><br/>
-                    Homemade Swedish icecream<br/>
-                    Served with a Swedish<br/>
-                    Cinnamon Bun and topped<br/>
-                    with heated berries<br/>
-                <strong>$5.99</strong><br/></p></td>
-                  <td>Lingonberry Drink<br/>
-                <strong>$1.75</strong></td>
-                </tr>
-            </tbody>
-        </table>
-            </div><hr>
-            <center>Broadway 1946, Minneapolis, MN, 55414</center> <br/>
-            <center>Phone Number: 612.999.9999</center>
-            <script src="js/bootstrap.js"></script>
-        </body>
-        </html>
+      <li class="active"><a href="Homepage.html"><span class="glyphicon glyphicon-home"></a></li>
+      <li><a href="Menu.html">Menu</a></li>
+      <li><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <!---->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item item active">
+        <p alt="first slide"> We're opening a new location!!
+        </p>
+      </div>
+      <div class="carousel-item item">
+        <p alt="second slide">We're rolling out our seasonal menu, with special options for this season</p>
+      </div>
+      <div class="carousel-item item">
+        <p alt="third slide"> The Drink of the Month is SG Special Brew
+        </p>
+      </div>
+      ...
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!---->
+
+  <h3>
+    <center>NEW LOCATION IN LUNGVIK</center>
+  </h3>
+
+  <hr/>
+  <table>
+    <thead>
+      <tr>
+        <th>Swedish Meals</th>
+        <th>Beverages</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Swedish Meatballs</strong><br/> Swedish meatballs with mashed potatoes<br/> served with a creamy sauce and
+          the
+          <br/> famous lingonberries<br/>
+          <strong>$6.99</strong></p><br/></td>
+        <td>Root Beer<br/>
+          <strong>$3.00</strong><br/>
+          <br/> <br/> Iced Tea<br/>
+          <strong>$1.25</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Swedish "Falukorv"</strong><br/> Swedish sausage with stewed<br/> macaroni, served with stewed<br/> vegetables
+          <br/>
+          <strong>$6.99</strong></p><br/>
+          <br/></td>
+        <td>Bottled Water<br/>
+          <strong>$1.25</strong><br/>
+          <br/>
+          <br/>Lemonade</br>
+          <strong>$1.00</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Swedish Desert</strong><br/> Homemade Swedish icecream<br/> Served with a Swedish<br/> Cinnamon Bun and topped<br/>          with heated berries<br/>
+          <strong>$5.99</strong><br/></p>
+        </td>
+        <td>Lingonberry Drink<br/>
+          <strong>$1.75</strong><br/><br/>
+        </br>SG Special Brew<br/>
+          <strong>$2.00</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <center>Broadway 1946, Minneapolis, MN, 55414</center> <br/>
+  <center>Phone Number: 612.999.9999</center>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
